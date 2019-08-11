@@ -8,7 +8,7 @@
 
 ## Description
 
-`ActionPicker` is a replication of iOS-style action sheets that are widely used to setup AirPods, HomePod, etc. 
+`ActionPicker` is an interactive replication of iOS-style action sheets that are widely used across the system to setup AirPods, HomePod, etc. 
 
 ## Usage
 
@@ -30,6 +30,9 @@ self.present(actionPickerViewController, animated: false, completion: nil)
 ```swift
 actionPickerViewController.dismiss(animated: true, completion: nil)
 ```
+*Note*: Since `ActionPickerViewController` is interactive, other dismissal options are available:
+* Tap ourside the content view
+* Pan content view out of the screen
 
 ## Screenshots
 
