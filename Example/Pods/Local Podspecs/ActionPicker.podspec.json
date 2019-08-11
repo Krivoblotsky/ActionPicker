@@ -15,8 +15,12 @@
     "git": "https://github.com/Serg Krivoblotsky/ActionPicker.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "ActionPicker/Classes/**/*"
+  "source_files": "ActionPicker/Classes/**/*",
+  "resources": "ActionPicker/Assets/Resources/**/*.{xib,storyboard}",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
 }

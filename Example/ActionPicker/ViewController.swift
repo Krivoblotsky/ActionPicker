@@ -7,18 +7,15 @@
 //
 
 import UIKit
+import ActionPicker
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func presentButtonClicked(_ sender: Any) {
+        let setupViewController = SetupViewConroller()
+        let actionPickerViewController = ActionSheetViewController(contentViewController: setupViewController)
+        
+        self.present(actionPickerViewController, animated: false, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

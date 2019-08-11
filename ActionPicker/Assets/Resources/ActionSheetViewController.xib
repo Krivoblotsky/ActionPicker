@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_5" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActionSheetViewController" customModule="ActionPicker" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="8ua-7F-BKN" id="hnk-vM-IC4"/>
+                <outlet property="containerView" destination="E7w-WH-LMW" id="Lfq-gG-afx"/>
+                <outlet property="transitionView" destination="HyG-Ns-7hq" id="xDB-ng-Nm7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ua-7F-BKN" userLabel="backgroundView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.40042657208588955" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-Ns-7hq" userLabel="transitionView">
+                    <rect key="frame" x="0.0" y="568" width="414" height="320"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpZ-85-Sau" userLabel="decorationView" customClass="ActionSheetDecorationView" customModule="ActionPicker">
+                            <rect key="frame" x="8" y="0.0" width="398" height="320"/>
+                            <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="28"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E7w-WH-LMW" userLabel="containerView">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="E7w-WH-LMW" secondAttribute="trailing" id="2pe-ed-QxD"/>
+                        <constraint firstItem="E7w-WH-LMW" firstAttribute="leading" secondItem="HyG-Ns-7hq" secondAttribute="leading" id="4Tm-zP-05z"/>
+                        <constraint firstItem="OpZ-85-Sau" firstAttribute="leading" secondItem="HyG-Ns-7hq" secondAttribute="leading" constant="8" id="Eae-Ss-iOF"/>
+                        <constraint firstAttribute="trailing" secondItem="OpZ-85-Sau" secondAttribute="trailing" constant="8" id="Ks5-ag-ZRT"/>
+                        <constraint firstAttribute="bottom" secondItem="OpZ-85-Sau" secondAttribute="bottom" id="OaW-57-nan"/>
+                        <constraint firstItem="OpZ-85-Sau" firstAttribute="top" secondItem="HyG-Ns-7hq" secondAttribute="top" id="Sap-Rr-caS"/>
+                        <constraint firstItem="E7w-WH-LMW" firstAttribute="top" secondItem="HyG-Ns-7hq" secondAttribute="top" id="gi8-uM-sbR"/>
+                        <constraint firstAttribute="bottom" secondItem="E7w-WH-LMW" secondAttribute="bottom" id="pOU-Wd-9k8"/>
+                        <constraint firstAttribute="height" constant="320" placeholder="YES" id="ppG-bB-bKD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="8ua-7F-BKN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6Dy-em-cj6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HyG-Ns-7hq" secondAttribute="trailing" id="8BR-ap-f2E"/>
+                <constraint firstAttribute="bottom" secondItem="HyG-Ns-7hq" secondAttribute="bottom" constant="8" id="8HT-72-hXd"/>
+                <constraint firstAttribute="bottom" secondItem="8ua-7F-BKN" secondAttribute="bottom" id="Lep-p5-QTd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8ua-7F-BKN" secondAttribute="trailing" id="Rf1-k8-ISC"/>
+                <constraint firstItem="8ua-7F-BKN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Rsx-nh-GYX"/>
+                <constraint firstItem="HyG-Ns-7hq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hrG-5z-NHp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="8BR-ap-f2E"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>
