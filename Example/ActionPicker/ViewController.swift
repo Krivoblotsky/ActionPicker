@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBAction func presentButtonClicked(_ sender: Any) {
         let setupViewController = SetupViewConroller()
         let actionPickerViewController = ActionSheetViewController(contentViewController: setupViewController)
-        
         self.present(actionPickerViewController, animated: false, completion: nil)
     }
 }
