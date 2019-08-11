@@ -1,6 +1,5 @@
 # ActionPicker
 
-[![CI Status](https://img.shields.io/travis/Serg Krivoblotsky/ActionPicker.svg?style=flat)](https://travis-ci.org/Serg Krivoblotsky/ActionPicker)
 [![Version](https://img.shields.io/cocoapods/v/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 [![License](https://img.shields.io/cocoapods/l/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
