@@ -10,11 +10,26 @@
 
 ## Usage
 
+1. Import `ActionPicker`
+
+```swift
+import ActionPicker
+```
+
+2. Present your content
+
 ```swift
 let setupViewController = /* Your awesome view controller */
 let actionPickerViewController = ActionPickerViewController(contentViewController: setupViewController)
 self.present(actionPickerViewController, animated: false, completion: nil)
 ```
+
+3. Dismiss
+```swift
+actionPickerViewController.dismiss(animated: true, completion: nil)
+```
+
+## Screenshots
 
 ## Example
 
