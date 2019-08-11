@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 
+![teaser](/Screenshots/header.png)
+
 ## Description
 
 `ActionPicker` is a replication of iOS-style action sheets that are widely used to setup AirPods, HomePod, etc. 
