@@ -20,7 +20,7 @@ ActionPicker is an interactive replication of iOS-style action sheets that are w
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Serg Krivoblotsky' => 'krivoblotsky@me.com' }
   s.source           = { :git => 'https://github.com/Krivoblotsky/ActionPicker.git', :tag => s.version.to_s }
-  s.social_media_url = 'http://twitter.com/Krivoblotsky'
+  s.social_media_url = 'https://twitter.com/Krivoblotsky'
 
   s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
