@@ -31,7 +31,7 @@ self.present(actionPickerViewController, animated: false, completion: nil)
 actionPickerViewController.dismiss(animated: true, completion: nil)
 ```
 *Note*: Since `ActionPickerViewController` is interactive, other dismissal options are available:
-* Tap ourside the content view
+* Tap outside the content view
 * Pan content view out of the screen
 
 ## Screenshots
@@ -40,6 +40,10 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 <img src="/Screenshots/screenshot_1.png" width="420">
 <img src="/Screenshots/screenshot_2.png" width="420">
 </p>
+
+## Demo
+
+<img src="/Screenshots/demo.gif" width="420">
 
 ## Example
 
