@@ -33,6 +33,8 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 
 ## Screenshots
 
+![screenshot_1](/Screenshots/screenshot_1.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
