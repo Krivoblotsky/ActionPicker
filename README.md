@@ -35,6 +35,8 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 
 ![screenshot_1](/Screenshots/screenshot_1.png)
 
+<img src="/Screenshots/screenshot_1.png" width="48">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
