@@ -1,6 +1,6 @@
 //
 //  ActionSheetViewController.swift
-//  VPN-iOS
+//  ActionPicker
 //
 //  Created by Sergii Kryvoblotskyi on 8/9/19.
 //  Copyright © 2019 MacPaw. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final public class ActionSheetViewController: UIViewController {
+final public class ActionPickerViewController: UIViewController {
     
     private enum ViewState {
         
@@ -30,7 +30,7 @@ final public class ActionSheetViewController: UIViewController {
     
     public init(contentViewController: UIViewController) {
         self.contentViewController = contentViewController
-        super.init(nibName: "\(ActionSheetViewController.self)", bundle: Bundle(for: ActionSheetViewController.self))
+        super.init(nibName: "\(ActionPickerViewController.self)", bundle: Bundle(for: ActionPickerViewController.self))
         modalPresentationStyle = .overCurrentContext
     }
     
@@ -74,7 +74,7 @@ final public class ActionSheetViewController: UIViewController {
     }
 }
 
-private extension ActionSheetViewController {
+private extension ActionPickerViewController {
     
     func setupContentView() {
         let rootView = contentViewController.view!
@@ -97,7 +97,7 @@ private extension ActionSheetViewController {
     }
 }
 
-private extension ActionSheetViewController {
+private extension ActionPickerViewController {
     
     @objc func handleTap(gesture: UITapGestureRecognizer) {
         if gesture.state == .ended {
@@ -133,9 +133,9 @@ private extension ActionSheetViewController {
     }
 }
 
-private extension ActionSheetViewController {
+private extension ActionPickerViewController {
     
-    private func transitionTo(state: ActionSheetViewController.ViewState) {
+    private func transitionTo(state: ActionPickerViewController.ViewState) {
         switch state {
         case .hidden:
             self.backgroundView.alpha = 0

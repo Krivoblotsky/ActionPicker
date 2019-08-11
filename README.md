@@ -12,7 +12,7 @@
 
 ```swift
 let setupViewController = /* Your awesome view controller */
-let actionPickerViewController = ActionSheetViewController(contentViewController: setupViewController)
+let actionPickerViewController = ActionPickerViewController(contentViewController: setupViewController)
 self.present(actionPickerViewController, animated: false, completion: nil)
 ```
 
@@ -42,3 +42,7 @@ See [Issues](https://github.com/Krivoblotsky/ActionPicker/issues)
 ## License
 
 ActionPicker is available under the MIT license. See the LICENSE file for more info.
+
+## Trademarks
+
+Apple, the Apple logo, Finder, Mac and Macintosh, AidPods, HomePod are trademarks of Apple Inc.

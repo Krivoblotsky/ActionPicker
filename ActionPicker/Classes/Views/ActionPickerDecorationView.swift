@@ -1,6 +1,6 @@
 //
 //  RoundedRectView.swift
-//  VPN-iOS
+//  ActionPicker
 //
 //  Created by Sergii Kryvoblotskyi on 8/9/19.
 //  Copyright © 2019 MacPaw. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-final class ActionSheetDecorationView: UIView {
+final class ActionPickerDecorationView: UIView {
 
     private let maskLayer: CAShapeLayer = CAShapeLayer()
     

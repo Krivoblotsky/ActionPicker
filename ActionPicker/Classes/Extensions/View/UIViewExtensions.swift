@@ -1,6 +1,6 @@
 //
 //  UIViewExtensions.swift
-//  VPN-iOS
+//  ActionPicker
 //
 //  Created by Sergii Kryvoblotskyi on 8/11/19.
 //  Copyright © 2019 MacPaw. All rights reserved.

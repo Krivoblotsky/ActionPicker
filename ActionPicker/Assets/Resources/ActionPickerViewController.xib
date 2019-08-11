@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActionSheetViewController" customModule="ActionPicker" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActionPickerViewController" customModule="ActionPicker" customModuleProvider="target">
             <connections>
                 <outlet property="backgroundView" destination="8ua-7F-BKN" id="hnk-vM-IC4"/>
                 <outlet property="containerView" destination="E7w-WH-LMW" id="Lfq-gG-afx"/>
@@ -28,7 +28,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-Ns-7hq" userLabel="transitionView">
                     <rect key="frame" x="0.0" y="568" width="414" height="320"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpZ-85-Sau" userLabel="decorationView" customClass="ActionSheetDecorationView" customModule="ActionPicker">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpZ-85-Sau" userLabel="decorationView" customClass="ActionPickerDecorationView" customModule="ActionPicker">
                             <rect key="frame" x="8" y="0.0" width="398" height="320"/>
                             <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <userDefinedRuntimeAttributes>

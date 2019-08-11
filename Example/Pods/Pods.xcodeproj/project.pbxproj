@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BBA505EBE1A5C75704EA9DA6FD7D84F /* ActionPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9C685AB0EA867C1CE1A0F6F2CD547 /* ActionPicker-dummy.m */; };
-		2BF126B2AFF0384FA44A06EBB17E7E79 /* ActionSheetDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8DA65165DF13B1C9FC5B29D8FB8E6 /* ActionSheetDecorationView.swift */; };
-		51EFD6D3DB0636878D90D61BB1A78A9E /* ActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6971FD06A81EC768B9F497FD57438D87 /* ActionSheetViewController.xib */; };
+		2F986FF6A03F3988696A7D322356933A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936BDE55556C2CB1DC3313841CBDC0F7 /* UIViewExtensions.swift */; };
+		51EFD6D3DB0636878D90D61BB1A78A9E /* ActionPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9EB4C5941CC9CD8159E8D320C86C73 /* ActionPickerViewController.xib */; };
+		56705CFE9F1B590BCB0EC7849E5760DF /* ActionPickerDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EBD123856F15C379F3CAF20F548E2F /* ActionPickerDecorationView.swift */; };
 		8561593EE8B885049A149FC5813DA774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		8615CF623BD0382616C914E6400B2A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		93082DED518C939709CB22B5EC435342 /* ActionPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94775844AD324D7BA985C374A8394C5A /* ActionPickerViewController.swift */; };
 		94D488691292AF18679444B8BBFB9CCD /* Pods-ActionPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D045CA200AF51022B35942616668BFC0 /* Pods-ActionPicker_Example-dummy.m */; };
+		9758F446E7386FE191746337B35AF19A /* ActionPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D591E288913FB51856336AC034755C /* ActionPicker-dummy.m */; };
 		A285785F342E5C206F5935752AD27709 /* Pods-ActionPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D4571386143C4ECB2DBD7D889C6C13 /* Pods-ActionPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A822D7C62411375537032B6B3F0AF9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		AAAC45C71BA477587AFC9B417E8AE2F8 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72842B4E2610F5127672E47375FCD4 /* UIViewExtensions.swift */; };
-		C12B0D468D45A0B49D860B563567C917 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8941044695AADB040A0DF8B0B7A749C /* ActionSheetViewController.swift */; };
-		C92E708C4EFAF02AB6F26BE68B00ACB2 /* ActionPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F019DB58F5CFF87D0FB2E4CFFDFE /* ActionPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92E708C4EFAF02AB6F26BE68B00ACB2 /* ActionPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4F5950F9C1C59B14E9CC6EC3D1DE34 /* ActionPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,33 +31,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		148758F4F17EC89B8083520661E8B8C8 /* ActionPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionPicker.xcconfig; sourceTree = "<group>"; };
-		19B9003C78EBC30C62D6871931792377 /* ActionPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionPicker.modulemap; sourceTree = "<group>"; };
+		1E74287E1CE3F4A5F705B3BB3BD62506 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24F843CF23B93F178ECF67B5C774C8C8 /* ActionPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionPicker.xcconfig; sourceTree = "<group>"; };
+		2703C2F2615C6473D9E80FA97763134E /* ActionPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ActionPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2879DEB4CDDD356DBBC0BEC48307EC17 /* Pods-ActionPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29C41E949BDE00FB4802BCAADD2F1E46 /* ActionPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ActionPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BB2BCBFD57D991E8931AC3CF85F5890 /* ActionPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionPicker.modulemap; sourceTree = "<group>"; };
+		30D591E288913FB51856336AC034755C /* ActionPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionPicker-dummy.m"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3E5E0B735E212CDB6C690ECF81FB80BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4F72842B4E2610F5127672E47375FCD4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		57A8DA65165DF13B1C9FC5B29D8FB8E6 /* ActionSheetDecorationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActionSheetDecorationView.swift; sourceTree = "<group>"; };
-		62722BA1354080E27B64A128C070E9E8 /* ActionPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionPicker-Info.plist"; sourceTree = "<group>"; };
+		5C4F5950F9C1C59B14E9CC6EC3D1DE34 /* ActionPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionPicker-umbrella.h"; sourceTree = "<group>"; };
+		5E86D91CC65A7A03389C3F0E0FA01BC4 /* ActionPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionPicker-Info.plist"; sourceTree = "<group>"; };
 		6711F28444F86EB4C1D935280AE09FCE /* Pods-ActionPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6971FD06A81EC768B9F497FD57438D87 /* ActionSheetViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionSheetViewController.xib; path = ActionPicker/Assets/Resources/ActionSheetViewController.xib; sourceTree = "<group>"; };
-		6FCBCAEADF9ADFBBF36A7BBFA1842756 /* Pods_ActionPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionPicker_Example.framework; path = "Pods-ActionPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FE9C685AB0EA867C1CE1A0F6F2CD547 /* ActionPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionPicker-dummy.m"; sourceTree = "<group>"; };
-		7902F019DB58F5CFF87D0FB2E4CFFDFE /* ActionPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionPicker-umbrella.h"; sourceTree = "<group>"; };
+		6FCBCAEADF9ADFBBF36A7BBFA1842756 /* Pods_ActionPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936BDE55556C2CB1DC3313841CBDC0F7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		94775844AD324D7BA985C374A8394C5A /* ActionPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionPickerViewController.swift; path = ActionPicker/Classes/ActionPickerViewController.swift; sourceTree = "<group>"; };
 		986953064DC4BD2C79D5484A19B3C999 /* Pods-ActionPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C9EB4C5941CC9CD8159E8D320C86C73 /* ActionPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionPickerViewController.xib; path = ActionPicker/Assets/Resources/ActionPickerViewController.xib; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A152035D0429C2A4587F3F8D2635872B /* Pods-ActionPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionPicker_Example-Info.plist"; sourceTree = "<group>"; };
-		A712D81A4B44D0ADA1C9502DA5C2207A /* ActionPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionPicker-prefix.pch"; sourceTree = "<group>"; };
-		A8941044695AADB040A0DF8B0B7A749C /* ActionSheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetViewController.swift; path = ActionPicker/Classes/ActionSheetViewController.swift; sourceTree = "<group>"; };
 		A9D4571386143C4ECB2DBD7D889C6C13 /* Pods-ActionPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		AC189BDEC5F1B92D3D53C6FD4BEE7E79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B92CD714F7F8FB81EDE2A98AB37B61C6 /* ActionPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionPicker-prefix.pch"; sourceTree = "<group>"; };
 		BF316F985D738396030536B8BA943D66 /* Pods-ActionPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D045CA200AF51022B35942616668BFC0 /* Pods-ActionPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		D239F280EE42665A2F654C37584D2604 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D502402F03B24CE9CFC38B402A7DB5A6 /* Pods-ActionPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ActionPicker_Example.modulemap"; sourceTree = "<group>"; };
 		DCB73B85C8ADF21FEF2C41D6EEE28268 /* Pods-ActionPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F12FB09EB92BC30BD938422AC83C554E /* ActionPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionPicker.framework; path = ActionPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EBD123856F15C379F3CAF20F548E2F /* ActionPickerDecorationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActionPickerDecorationView.swift; sourceTree = "<group>"; };
+		F12FB09EB92BC30BD938422AC83C554E /* ActionPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,30 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		056545C7525D442190C2119ECD4DA785 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4F72842B4E2610F5127672E47375FCD4 /* UIViewExtensions.swift */,
-			);
-			name = View;
-			path = View;
-			sourceTree = "<group>";
-		};
-		13DB9D3A715ED9580670EA90813516DF /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				056545C7525D442190C2119ECD4DA785 /* View */,
-			);
-			name = Extensions;
-			path = ActionPicker/Classes/Extensions;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E08D54F216BB9E8800F8A2266526FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C9EB4C5941CC9CD8159E8D320C86C73 /* ActionPickerViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		32C1408E9806C68B14158EDD2C630A8A /* Targets Support Files */ = {
@@ -115,35 +105,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4281C6928ADD181A8893ED7CFB60C374 /* Views */ = {
+		5607383F1C3F5BE993DF20054DEB5BBB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				57A8DA65165DF13B1C9FC5B29D8FB8E6 /* ActionSheetDecorationView.swift */,
+				F0EBD123856F15C379F3CAF20F548E2F /* ActionPickerDecorationView.swift */,
 			);
 			name = Views;
 			path = ActionPicker/Classes/Views;
 			sourceTree = "<group>";
 		};
-		5EC410D19A64A220874B33081F880E6E /* ActionPicker */ = {
+		59FF65314789ED9844F3B39799553287 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8941044695AADB040A0DF8B0B7A749C /* ActionSheetViewController.swift */,
-				13DB9D3A715ED9580670EA90813516DF /* Extensions */,
-				EADB9315FA2357132EFCBA9123B54FCB /* Pod */,
-				AE5A254A6DF498B7538D65D60D109833 /* Resources */,
-				DC6D09AA34D73F34FE2DE11EB84F2F2E /* Support Files */,
-				4281C6928ADD181A8893ED7CFB60C374 /* Views */,
+				2BB2BCBFD57D991E8931AC3CF85F5890 /* ActionPicker.modulemap */,
+				24F843CF23B93F178ECF67B5C774C8C8 /* ActionPicker.xcconfig */,
+				30D591E288913FB51856336AC034755C /* ActionPicker-dummy.m */,
+				5E86D91CC65A7A03389C3F0E0FA01BC4 /* ActionPicker-Info.plist */,
+				B92CD714F7F8FB81EDE2A98AB37B61C6 /* ActionPicker-prefix.pch */,
+				5C4F5950F9C1C59B14E9CC6EC3D1DE34 /* ActionPicker-umbrella.h */,
 			);
-			name = ActionPicker;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ActionPicker";
 			sourceTree = "<group>";
 		};
-		AE5A254A6DF498B7538D65D60D109833 /* Resources */ = {
+		6648CB0166C0B09C2E16BA381F5A6D6E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6971FD06A81EC768B9F497FD57438D87 /* ActionSheetViewController.xib */,
+				2703C2F2615C6473D9E80FA97763134E /* ActionPicker.podspec */,
+				D239F280EE42665A2F654C37584D2604 /* LICENSE */,
+				1E74287E1CE3F4A5F705B3BB3BD62506 /* README.md */,
 			);
-			name = Resources;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6B4BBC1816D6E3C53D996E68242BE565 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEE98209BC8FF54EA6C9A1965528986E /* View */,
+			);
+			name = Extensions;
+			path = ActionPicker/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		B323B838F1F1FE41C0E0B4B3C37C8F32 /* Pods-ActionPicker_Example */ = {
@@ -172,6 +173,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BEE98209BC8FF54EA6C9A1965528986E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				936BDE55556C2CB1DC3313841CBDC0F7 /* UIViewExtensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -183,24 +192,24 @@
 			);
 			sourceTree = "<group>";
 		};
-		DC6D09AA34D73F34FE2DE11EB84F2F2E /* Support Files */ = {
+		D82BE1637E5C9133EDBEE8CEF6E0E05B /* ActionPicker */ = {
 			isa = PBXGroup;
 			children = (
-				19B9003C78EBC30C62D6871931792377 /* ActionPicker.modulemap */,
-				148758F4F17EC89B8083520661E8B8C8 /* ActionPicker.xcconfig */,
-				6FE9C685AB0EA867C1CE1A0F6F2CD547 /* ActionPicker-dummy.m */,
-				62722BA1354080E27B64A128C070E9E8 /* ActionPicker-Info.plist */,
-				A712D81A4B44D0ADA1C9502DA5C2207A /* ActionPicker-prefix.pch */,
-				7902F019DB58F5CFF87D0FB2E4CFFDFE /* ActionPicker-umbrella.h */,
+				94775844AD324D7BA985C374A8394C5A /* ActionPickerViewController.swift */,
+				6B4BBC1816D6E3C53D996E68242BE565 /* Extensions */,
+				6648CB0166C0B09C2E16BA381F5A6D6E /* Pod */,
+				18E08D54F216BB9E8800F8A2266526FA /* Resources */,
+				59FF65314789ED9844F3B39799553287 /* Support Files */,
+				5607383F1C3F5BE993DF20054DEB5BBB /* Views */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ActionPicker";
+			name = ActionPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DEBB3AC210E06CCEFDA4990145213AE0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5EC410D19A64A220874B33081F880E6E /* ActionPicker */,
+				D82BE1637E5C9133EDBEE8CEF6E0E05B /* ActionPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -212,16 +221,6 @@
 				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EADB9315FA2357132EFCBA9123B54FCB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				29C41E949BDE00FB4802BCAADD2F1E46 /* ActionPicker.podspec */,
-				3E5E0B735E212CDB6C690ECF81FB80BE /* LICENSE */,
-				AC189BDEC5F1B92D3D53C6FD4BEE7E79 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +250,7 @@
 			buildConfigurationList = E0B14B9282B6A9730AD27154C9918905 /* Build configuration list for PBXNativeTarget "ActionPicker" */;
 			buildPhases = (
 				2C9A148D1A9410FFAB2F76312655CF1C /* Headers */,
-				51754BDC090DD945C0045E1DC6DF2D9B /* Sources */,
+				F4E65F4DDA0B59754F15D5B788AE424C /* Sources */,
 				5D2E0BDF12D7CBB3865A5BA30E2924BC /* Frameworks */,
 				A045EF63EA5973A8BF1EFE150D1A8D7E /* Resources */,
 			);
@@ -322,7 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51EFD6D3DB0636878D90D61BB1A78A9E /* ActionSheetViewController.xib in Resources */,
+				51EFD6D3DB0636878D90D61BB1A78A9E /* ActionPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +336,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51754BDC090DD945C0045E1DC6DF2D9B /* Sources */ = {
+		F4E65F4DDA0B59754F15D5B788AE424C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBA505EBE1A5C75704EA9DA6FD7D84F /* ActionPicker-dummy.m in Sources */,
-				2BF126B2AFF0384FA44A06EBB17E7E79 /* ActionSheetDecorationView.swift in Sources */,
-				C12B0D468D45A0B49D860B563567C917 /* ActionSheetViewController.swift in Sources */,
-				AAAC45C71BA477587AFC9B417E8AE2F8 /* UIViewExtensions.swift in Sources */,
+				9758F446E7386FE191746337B35AF19A /* ActionPicker-dummy.m in Sources */,
+				56705CFE9F1B590BCB0EC7849E5760DF /* ActionPickerDecorationView.swift in Sources */,
+				93082DED518C939709CB22B5EC435342 /* ActionPickerViewController.swift in Sources */,
+				2F986FF6A03F3988696A7D322356933A /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +361,7 @@
 /* Begin XCBuildConfiguration section */
 		012FEA62773E28BEF42F793337B965BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 148758F4F17EC89B8083520661E8B8C8 /* ActionPicker.xcconfig */;
+			baseConfigurationReference = 24F843CF23B93F178ECF67B5C774C8C8 /* ActionPicker.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -447,8 +446,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -491,7 +489,7 @@
 		};
 		BCF9632BF25F3A37B2B79D8889447451 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 148758F4F17EC89B8083520661E8B8C8 /* ActionPicker.xcconfig */;
+			baseConfigurationReference = 24F843CF23B93F178ECF67B5C774C8C8 /* ActionPicker.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
