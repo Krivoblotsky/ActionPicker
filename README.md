@@ -41,7 +41,7 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 <img src="/Screenshots/screenshot_2.png" width="420">
 </p>
 
-## Demo
+## Let's see in action
 
 <p align="center">
     <kbd>
