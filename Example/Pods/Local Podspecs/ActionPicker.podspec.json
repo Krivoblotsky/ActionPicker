@@ -1,0 +1,22 @@
+{
+  "name": "ActionPicker",
+  "version": "0.1.0",
+  "summary": "A short description of ActionPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Serg Krivoblotsky/ActionPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Serg Krivoblotsky": "krivoblotsky@macpaw.com"
+  },
+  "source": {
+    "git": "https://github.com/Serg Krivoblotsky/ActionPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ActionPicker/Classes/**/*"
+}

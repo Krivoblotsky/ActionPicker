@@ -1,0 +1,16 @@
+PODS:
+  - ActionPicker (0.1.0)
+
+DEPENDENCIES:
+  - ActionPicker (from `../`)
+
+EXTERNAL SOURCES:
+  ActionPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ActionPicker: 829e0c6433bfe4bcfc9a728360ea9dcbc7c4f2f8
+
+PODFILE CHECKSUM: ad79584485a386b37597cb09865253ce2b34d39f
+
+COCOAPODS: 1.7.4

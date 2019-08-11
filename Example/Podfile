@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ActionPicker_Example' do
+  pod 'ActionPicker', :path => '../'
+
+  target 'ActionPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
