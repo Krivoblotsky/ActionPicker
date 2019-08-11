@@ -37,6 +37,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+`ActionPicker` required iOS11+. 
+
 ## Installation
 
 ActionPicker is available through [CocoaPods](https://cocoapods.org). To install
@@ -48,7 +50,7 @@ pod 'ActionPicker'
 
 ## Author
 
-Serg Krivoblotsky, krivoblotsky@macpaw.com
+Serg Krivoblotsky, krivoblotsky@me.com
 
 ## Roadmap
 
