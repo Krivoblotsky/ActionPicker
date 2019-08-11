@@ -4,6 +4,18 @@
 [![License](https://img.shields.io/cocoapods/l/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 
+## Description
+
+`ActionPicker` is a replication of iOS-style action sheets that are widely used to setup AirPods, HomePod, etc. 
+
+## Usage
+
+```swift
+let setupViewController = /* Your awesome view controller */
+let actionPickerViewController = ActionSheetViewController(contentViewController: setupViewController)
+self.present(actionPickerViewController, animated: false, completion: nil)
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,6 +34,10 @@ pod 'ActionPicker'
 ## Author
 
 Serg Krivoblotsky, krivoblotsky@macpaw.com
+
+## Roadmap
+
+See [Issues](https://github.com/Krivoblotsky/ActionPicker/issues)
 
 ## License
 
