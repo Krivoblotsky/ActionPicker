@@ -43,7 +43,11 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 
 ## Demo
 
-<img src="/Screenshots/demo.gif" width="420">
+<p align="center">
+    <kbd>
+        <img src="/Screenshots/demo.gif" width="420">
+    </kbd>
+</p>
 
 ## Example
 
@@ -51,7 +55,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-`ActionPicker` required iOS11+. 
+`ActionPicker` requires iOS11+. 
 
 ## Installation
 
