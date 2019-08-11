@@ -33,8 +33,6 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 
 ## Screenshots
 
-![screenshot_1](/Screenshots/screenshot_1.png)
-
 <img src="/Screenshots/screenshot_1.png" width="420">
 
 ## Example
