@@ -11,8 +11,13 @@ import ActionPicker
 
 class ViewController: UIViewController {
 
-    @IBAction func presentButtonClicked(_ sender: Any) {
-        let setupViewController = SetupViewConroller()
+    @IBAction func compactExampleButtonClicked(_ sender: Any) {
+        let setupViewController = CompactExampleViewConroller()
+        let actionPickerViewController = ActionPickerViewController(contentViewController: setupViewController)
+        self.present(actionPickerViewController, animated: false, completion: nil)
+    }
+    @IBAction func extendedExampleButtonClicked(_ sender: Any) {
+        let setupViewController = ExtendedExampleViewConroller()
         let actionPickerViewController = ActionPickerViewController(contentViewController: setupViewController)
         self.present(actionPickerViewController, animated: false, completion: nil)
     }
