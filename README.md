@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ActionPicker.svg?style=flat)](https://cocoapods.org/pods/ActionPicker)
 
-![teaser](/Screenshots/header.png)
+![teaser](/Screenshots/header_v2.png)
 
 ## Description
 
