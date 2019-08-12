@@ -37,8 +37,8 @@ actionPickerViewController.dismiss(animated: true, completion: nil)
 ## Screenshots
 
 <p align="center">
-<img src="/Screenshots/screenshot_1.png" width="420">
-<img src="/Screenshots/screenshot_2.png" width="420">
+<img src="/Screenshots/screenshot_3.png" width="420">
+<img src="/Screenshots/screenshot_4.png" width="420">
 </p>
 
 ## Let's see in action
