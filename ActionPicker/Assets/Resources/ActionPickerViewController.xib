@@ -26,14 +26,14 @@
                     <color key="backgroundColor" white="0.0" alpha="0.40042657208588955" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-Ns-7hq" userLabel="transitionView">
-                    <rect key="frame" x="0.0" y="568" width="414" height="320"/>
+                    <rect key="frame" x="0.0" y="566" width="414" height="320"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpZ-85-Sau" userLabel="decorationView" customClass="ActionPickerDecorationView" customModule="ActionPicker">
-                            <rect key="frame" x="8" y="0.0" width="398" height="320"/>
+                            <rect key="frame" x="10" y="0.0" width="394" height="320"/>
                             <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                    <real key="value" value="28"/>
+                                    <real key="value" value="30"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
                             </userDefinedRuntimeAttributes>
@@ -47,8 +47,8 @@
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="E7w-WH-LMW" secondAttribute="trailing" id="2pe-ed-QxD"/>
                         <constraint firstItem="E7w-WH-LMW" firstAttribute="leading" secondItem="HyG-Ns-7hq" secondAttribute="leading" id="4Tm-zP-05z"/>
-                        <constraint firstItem="OpZ-85-Sau" firstAttribute="leading" secondItem="HyG-Ns-7hq" secondAttribute="leading" constant="8" id="Eae-Ss-iOF"/>
-                        <constraint firstAttribute="trailing" secondItem="OpZ-85-Sau" secondAttribute="trailing" constant="8" id="Ks5-ag-ZRT"/>
+                        <constraint firstItem="OpZ-85-Sau" firstAttribute="leading" secondItem="HyG-Ns-7hq" secondAttribute="leading" constant="10" id="Eae-Ss-iOF"/>
+                        <constraint firstAttribute="trailing" secondItem="OpZ-85-Sau" secondAttribute="trailing" constant="10" id="Ks5-ag-ZRT"/>
                         <constraint firstAttribute="bottom" secondItem="OpZ-85-Sau" secondAttribute="bottom" id="OaW-57-nan"/>
                         <constraint firstItem="OpZ-85-Sau" firstAttribute="top" secondItem="HyG-Ns-7hq" secondAttribute="top" id="Sap-Rr-caS"/>
                         <constraint firstItem="E7w-WH-LMW" firstAttribute="top" secondItem="HyG-Ns-7hq" secondAttribute="top" id="gi8-uM-sbR"/>
@@ -61,7 +61,7 @@
             <constraints>
                 <constraint firstItem="8ua-7F-BKN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6Dy-em-cj6"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HyG-Ns-7hq" secondAttribute="trailing" id="8BR-ap-f2E"/>
-                <constraint firstAttribute="bottom" secondItem="HyG-Ns-7hq" secondAttribute="bottom" constant="8" id="8HT-72-hXd"/>
+                <constraint firstAttribute="bottom" secondItem="HyG-Ns-7hq" secondAttribute="bottom" constant="10" id="8HT-72-hXd"/>
                 <constraint firstAttribute="bottom" secondItem="8ua-7F-BKN" secondAttribute="bottom" id="Lep-p5-QTd"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8ua-7F-BKN" secondAttribute="trailing" id="Rf1-k8-ISC"/>
                 <constraint firstItem="8ua-7F-BKN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Rsx-nh-GYX"/>
